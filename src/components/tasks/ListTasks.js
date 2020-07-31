@@ -10,7 +10,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 const ListTasks = () => {
 
 
-
+ 
     //extraer proyectos de initialState
     const projectsContext = useContext(projectContext);
     const { project, deleteProject } = projectsContext;

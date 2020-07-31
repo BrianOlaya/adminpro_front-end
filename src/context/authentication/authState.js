@@ -41,8 +41,8 @@ import {REGISTRY_SUCCESFULL,
                 console.log(error.response);
 
                 const alert={
-                    msg:error.response.data.msg,
-                    category:'alert-error'
+                //    msg:error.response.data.msg,
+                //    category:'alert-error'
                 }
                 dispatch ({
                     type:REGISTRY_ERROR,
